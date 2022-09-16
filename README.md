@@ -36,13 +36,12 @@ npm install jpv –save
 
 How to validate Json data using JPV?
 
-const json = {ID:"2",Country:"br",Currency:"brl",Date:"2017-05-12"};
+const json = {ID:"2",Country:"br",Currency:"brl"};
 
 const pattern ={
     ID:"[integer]",
     Country:/[a-z]{2}/,
-    Currency:/[a-z]{3}/,
-    Date:"[date]"
+    Currency:/[a-z]{3}/
 }
 
 
