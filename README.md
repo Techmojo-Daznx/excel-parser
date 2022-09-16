@@ -30,6 +30,8 @@ Steps taken to achieve desired results:-
 Sample.xlsx(input)                  xlsx-parser                 JPV-validation(If true)                   data.json(output)
 
 Attaching the Code. Please install these packages and try :-
+
+
 npm install xlsx
 npm install jpv –save
 
